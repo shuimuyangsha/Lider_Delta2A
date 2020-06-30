@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{9b241e9c-fd7c-47e9-8224-f5e88e1cd97e}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{ac060966-bd9c-4767-b98a-d9207d82ec29}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{84c96b01-dc8a-4167-8e25-c952bf8cdb35}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\App">
+      <UniqueIdentifier>{c28ed23c-955d-4264-889a-c12bf808cf05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HardDriver">
+      <UniqueIdentifier>{cf424802-dad3-4c6e-af9b-0ab230fa9b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STARTUP">
+      <UniqueIdentifier>{4fa7043b-0ed4-4cc5-a879-ef0f399aea53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32F10x_StdPeriph_Driver">
+      <UniqueIdentifier>{2790671c-ed2f-424d-baf6-dd8414665cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{da607f1d-08fd-497b-8a1f-b204adae962f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\App">
+      <UniqueIdentifier>{2fa4d3b3-d677-4315-8bc3-ce911c081bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HardDriver">
+      <UniqueIdentifier>{b4832d29-24c9-412f-8ae5-a2db3c5f8176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STARTUP">
+      <UniqueIdentifier>{89e6c03a-adf8-45a2-8f06-fdf9ba19283c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32F10x_StdPeriph_Driver">
+      <UniqueIdentifier>{518d0be2-83cb-443f-8ddc-49045bb418cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{3dba955e-84a4-4915-9a03-89505c5751f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{be3b0ef4-fe29-49e1-8cae-34b6f6a39fb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\App\main.c">
+      <Filter>Source files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\App\Lidar.c">
+      <Filter>Source files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HardDriver\src\Bsp_uart.c">
+      <Filter>Source files\HardDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HardDriver\src\check.c">
+      <Filter>Source files\HardDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\startup\startup_stm32f10x_md.s">
+      <Filter>Source files\STARTUP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\core_cm3.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\system_stm32f10x.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_it.c">
+      <Filter>Source files\STM32F10x_StdPeriph_Driver</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="Lider_Delta2A-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Lider_Delta2A-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

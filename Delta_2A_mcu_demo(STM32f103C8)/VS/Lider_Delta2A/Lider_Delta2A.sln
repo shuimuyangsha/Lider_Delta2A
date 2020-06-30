@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lider_Delta2A", "Lider_Delta2A.vcxproj", "{950BF41E-7603-4527-87E0-74C92BE409D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950BF41E-7603-4527-87E0-74C92BE409D5}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{950BF41E-7603-4527-87E0-74C92BE409D5}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{950BF41E-7603-4527-87E0-74C92BE409D5}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{950BF41E-7603-4527-87E0-74C92BE409D5}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {331A9A4F-F8E0-4930-AD35-75DF25CCCD3C}
+	EndGlobalSection
+EndGlobal
