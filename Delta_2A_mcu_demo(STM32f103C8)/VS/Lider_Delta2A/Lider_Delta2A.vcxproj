@@ -34,6 +34,7 @@
     <GNUConfigurationType>Debug</GNUConfigurationType>
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
     <ToolchainVersion>5.x//r1</ToolchainVersion>
+    <TargetExt>.elf</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
@@ -46,6 +47,7 @@
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
+      <Optimization>O1</Optimization>
     </ClCompile>
     <Link>
       <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>

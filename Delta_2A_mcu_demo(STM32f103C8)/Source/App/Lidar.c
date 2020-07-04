@@ -4,6 +4,7 @@
 #include "check.h"
   
 T_LIDARSCANINFO lidarscaninfo;
+float DebugDistance[500];
 /********************************************************************************************/
 //初始化雷达扫描信息函数
 //参数:     无
@@ -84,6 +85,7 @@ void grabFirstGratingScan(T_FRAME_MEAS_INFO one_meas_info)
 /*****************************************************************************************/
 void ScanOneCircle(T_FRAME_MEAS_INFO one_meas_info)
 {
+	int i;
 	switch(lidarscaninfo.State)
 	{
 		case GRAB_SCAN_FIRST:
@@ -125,6 +127,9 @@ void ScanOneCircle(T_FRAME_MEAS_INFO one_meas_info)
 					lidarscaninfo.ToothCount=0;
 					lidarscaninfo.State = GRAB_SCAN_FIRST;
 					lidarscaninfo.Result =  LIDAR_GRAB_SUCESS;
+					for (i = 0; i < 500;i++) {
+						DebugDistance[i] = lidarscaninfo.OneCriclePoint[i].Distance;
+					}
 					return;
 				}
 				break;			
@@ -159,6 +164,7 @@ void AnalysisMeasureInfo(T_PROTOCOL* Preq)
 	{
 		lidarscaninfo.FrameMeasInfo.Point[i].Distance=Strto_u16(Preq->Data+data_head_offset+3*i+1)*0.25f;
 		lidarscaninfo.FrameMeasInfo.Point[i].Angle=	lidarscaninfo.FrameMeasInfo.FrameStartAngle+i*per_angle_offset;
+
 	}
 	
 	ScanOneCircle(lidarscaninfo.FrameMeasInfo);

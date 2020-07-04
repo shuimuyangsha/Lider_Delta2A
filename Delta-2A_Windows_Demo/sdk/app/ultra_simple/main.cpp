@@ -155,7 +155,7 @@ int main(int argc, const char * argv[]) {
     if (!opt_com_path) {
 #ifdef _WIN32
         // use default com port
-        opt_com_path = "\\\\.\\com5";
+        opt_com_path = "\\\\.\\com8";
 #else
         opt_com_path = "/dev/ttyUSB0";
 #endif

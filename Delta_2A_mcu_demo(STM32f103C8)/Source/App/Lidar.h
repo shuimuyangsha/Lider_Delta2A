@@ -6,15 +6,15 @@
 /********************************************************************************************************************/
 //通讯相关参数定义
 /********************************************************************************************************************/
-#define FRAME_PARAM_MAX_RX_LEN		            (2000 + 10)	                                	//接收数据参数的最大长度
-#define FRAME_PARAM_MAX_TX_LEN		            100		                                			//发送数据参数的最大长度
+#define FRAME_PARAM_MAX_RX_LEN		            (2000 + 10)	                                //接收数据参数的最大长度
+#define FRAME_PARAM_MAX_TX_LEN		            100		                                	//发送数据参数的最大长度
 
-#define FRAME_HEAD		                        	0xAA                                        //帧头
+#define FRAME_HEAD		                        0xAA                                        //帧头
 #define FRAME_PROTOCAL_VERSION	  	            0x00                                        //协议版本                                     
-#define FRAME_TYPE						               		0x61                                        //帧类型
+#define FRAME_TYPE						        0x61                                        //帧类型
 
-#define FRAME_MEASURE_INFO											0xAD
-#define FRAME_DEVICE_HEALTH_INFO								0xAE
+#define FRAME_MEASURE_INFO						0xAD
+#define FRAME_DEVICE_HEALTH_INFO				0xAE
 
 //雷达扫描状态
 enum SCANSTATE
@@ -83,7 +83,9 @@ typedef struct
 }T_LIDARSCANINFO;
 #pragma pack ()
 
+extern float DebugDistance[500];
 extern T_LIDARSCANINFO lidarscaninfo;
+
 
 void Lidarscaninfo_Init(void);
 uint8_t P_Cmd_Process(void);

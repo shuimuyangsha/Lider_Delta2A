@@ -1,5 +1,5 @@
 Dependencies for Project 'mcu_sdk_demo', Target 'delta_2b': (DO NOT MODIFY !)
-F (..\Source\App\main.c)(0x5BBEEEA4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Source\App -I ..\Source\HardDriver\inc -I ..\Source\STM32F10x_StdPeriph_Driver\inc -I ..\Source\startup-I.\RTE\_delta_2b-IC:\ForEden\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\ForEden\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\Source\App\main.c)(0x5EFBE70A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Source\App -I ..\Source\HardDriver\inc -I ..\Source\STM32F10x_StdPeriph_Driver\inc -I ..\Source\startup-I.\RTE\_delta_2b-IC:\ForEden\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\ForEden\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Source\App\lidar.h)(0x5BBDCCB5)
 I (C:\ForEden\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\Source\HardDriver\inc\bsp_uart.h)(0x5BBC7842)
@@ -457,7 +457,7 @@ I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Source\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_it.c)(0x5BBACFA3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Source\App -I ..\Source\HardDriver\inc -I ..\Source\STM32F10x_StdPeriph_Driver\inc -I ..\Source\startup-I.\RTE\_delta_2b-IC:\ForEden\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\ForEden\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+F (..\Source\STM32F10x_StdPeriph_Driver\src\stm32f10x_it.c)(0x5EFBE933)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Source\App -I ..\Source\HardDriver\inc -I ..\Source\STM32F10x_StdPeriph_Driver\inc -I ..\Source\startup-I.\RTE\_delta_2b-IC:\ForEden\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\ForEden\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_it.h)(0x57A2DEEC)
 I (C:\ForEden\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Source\STM32F10x_StdPeriph_Driver\inc\core_cm3.h)(0x57231161)
